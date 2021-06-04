@@ -10,7 +10,7 @@ A simple library to convert Google search results to JSON output, with an intera
 
 ## Example Usage
 
-`$ google-it --query="Latvian unicorn"`
+`$ google-it-safesearch --query="Latvian unicorn"`
 
 ![GIF of google-it](./images/google-it-demo.gif?raw=true "google-it")
 
