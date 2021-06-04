@@ -1,10 +1,12 @@
 # google-it [![Build Status](https://travis-ci.org/PatNeedham/google-it.svg?branch=master)](https://travis-ci.org/PatNeedham/google-it) [![npm version](https://badge.fury.io/js/google-it.svg)](https://www.npmjs.com/package/google-it) [![Codecov Coverage](https://img.shields.io/codecov/c/github/PatNeedham/google-it/master.svg?style=flat-square)](https://codecov.io/gh/PatNeedham/google-it/) [![Maintainability](https://api.codeclimate.com/v1/badges/fe8329b7641ea86326e4/maintainability)](https://codeclimate.com/github/PatNeedham/google-it/maintainability)
 
+**This is a fork of the npm package google-it. This adds the safe=active argument to all google searches so that searches are filtered by google!**
+
 A simple library to convert Google search results to JSON output, with an interactive display option coming in the near future.
 
 ## Install
 
-`$ npm install --save -g google-it`
+`$ npm install --save -g google-it-safesearch`
 
 ## Example Usage
 
