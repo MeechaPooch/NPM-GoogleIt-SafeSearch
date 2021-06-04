@@ -16,15 +16,15 @@ A simple library to convert Google search results to JSON output, with an intera
 
 Prevent display in the terminal, and save results to a JSON file:
 
-`$ google-it --query="PWAs with react-router and redux" -o results.json -n`
+`$ google-it-safesearch --query="PWAs with react-router and redux" -o results.json -n`
 
 ![GIF of google-it w/o display, results saved to file](./images/google-it-output-no-display.gif?raw=true "google-it")
 
-`$ google-it --query="open whisper systems" -O 5`
+`$ google-it-safesearch --query="open whisper systems" -O 5`
 
 ![GIF of opening-in-browser](./images/open-results-in-browser.gif?raw=true "google-it-to-browser")
 
-`$ google-it --query="mechanical turk" --only-urls`
+`$ google-it-safesearch --query="mechanical turk" --only-urls`
 
 ![Screenshot of only-urls option](./images/onlyUrls.png?raw=true "onlyUrls")
 
@@ -48,7 +48,7 @@ Prevent display in the terminal, and save results to a JSON file:
 - [x] something like:
 
 ```js
-const  googleIt = require('google-it')
+const  googleIt = require('google-it-safesearch')
 
 googleIt({'query': 'covfefe irony'}).then(results => {
   // access to results object here
